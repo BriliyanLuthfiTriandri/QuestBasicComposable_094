@@ -83,7 +83,9 @@ fun BasicCompos(modifier: Modifier = Modifier
             color = Color.Magenta,
             fontFamily = FontFamily.Serif,
             )
-
+        Text(
+            text = "20220140094",
+        )
     }
 }
 
