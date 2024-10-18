@@ -71,7 +71,12 @@ fun BasicCompos(modifier: Modifier = Modifier
         )
         Text(
             text = "Nama",
-        )
+            style = TextStyle(
+                fontSize = 15.sp,
+                color = Color.Black,
+                fontFamily = FontFamily.Serif,
+            ))
+
     }
 }
 
