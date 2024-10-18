@@ -76,7 +76,9 @@ fun BasicCompos(modifier: Modifier = Modifier
                 color = Color.Black,
                 fontFamily = FontFamily.Serif,
             ))
-
+        Text(
+            text = "Briliyan Luthfi Triandri",
+        )
     }
 }
 
