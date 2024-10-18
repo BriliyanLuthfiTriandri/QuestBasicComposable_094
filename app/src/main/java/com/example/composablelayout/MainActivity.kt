@@ -33,6 +33,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposableLayoutTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicCompos(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
