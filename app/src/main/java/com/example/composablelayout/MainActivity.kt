@@ -51,8 +51,10 @@ fun BasicCompos(modifier: Modifier = Modifier
         horizontalAlignment =  Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    ){
-
+    ) {
+        Text(
+            text = "Login",
+        )
     }
 }
 
