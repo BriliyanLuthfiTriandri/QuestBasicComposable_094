@@ -85,7 +85,11 @@ fun BasicCompos(modifier: Modifier = Modifier
             )
         Text(
             text = "20220140094",
-        )
+            fontSize = 40.sp,
+            color = Color.Black,
+            fontFamily = FontFamily.Monospace,
+            )
+
     }
 }
 
