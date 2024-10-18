@@ -66,6 +66,9 @@ fun BasicCompos(modifier: Modifier = Modifier
                 color = Color.Black,
                 fontFamily = FontFamily.Serif,
                 ))
+        Image(painter = painterResource(id =  R.drawable.logoumy),
+            contentDescription = null
+        )
 
     }
 }
