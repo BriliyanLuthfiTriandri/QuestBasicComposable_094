@@ -89,7 +89,11 @@ fun BasicCompos(modifier: Modifier = Modifier
             color = Color.Black,
             fontFamily = FontFamily.Monospace,
             )
-
+        Image(painter = painterResource(id =  R.drawable.fotokuhehe),
+            contentDescription = null,
+            modifier = Modifier
+                .clip(RoundedCornerShape(5))
+        ) //atau ""
     }
 }
 
