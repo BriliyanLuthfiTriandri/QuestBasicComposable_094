@@ -78,7 +78,12 @@ fun BasicCompos(modifier: Modifier = Modifier
             ))
         Text(
             text = "Briliyan Luthfi Triandri",
-        )
+            fontWeight = FontWeight.Bold,
+            fontSize = 16.sp,
+            color = Color.Magenta,
+            fontFamily = FontFamily.Serif,
+            )
+
     }
 }
 
