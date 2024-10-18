@@ -59,6 +59,9 @@ fun BasicCompos(modifier: Modifier = Modifier
                 fontWeight = FontWeight.Bold,
                 color = Color.Red,
                 ))
+        Text(
+            text = "Ini adalah halaman login",
+        )
     }
 }
 
