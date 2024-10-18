@@ -61,7 +61,12 @@ fun BasicCompos(modifier: Modifier = Modifier
                 ))
         Text(
             text = "Ini adalah halaman login",
-        )
+            style = TextStyle(
+                fontSize = 15.sp,
+                color = Color.Black,
+                fontFamily = FontFamily.Serif,
+                ))
+
     }
 }
 
